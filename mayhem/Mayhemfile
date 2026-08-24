@@ -1,0 +1,9 @@
+project: savantenvs/bimg
+target: texturec
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/texturec/testsuite
+
+cmds:
+  - cmd: /mayhem/texturec
